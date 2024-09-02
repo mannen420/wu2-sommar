@@ -1,0 +1,91 @@
+html, body {
+    margin: 0px;
+    background-color: lightblue;
+}
+
+body {
+    font-size: 1.2rem;
+    font-family: sans-serif;
+
+}
+
+h1,
+h2,
+p {
+    max-width: 80ch;
+
+}
+
+.navbarcontainer{
+    background-color: white;
+    padding: 1.2rem;
+}
+
+
+.container {
+    max-width: 80%;
+    margin: 0 auto;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    
+
+}
+
+img {
+    width: 100%;
+}
+
+
+.hero{
+    position: relative;
+    
+    background-color: brown;
+    height: 50vh;
+    padding: 3rem;
+   
+    padding-top: 3rem;
+
+
+    .hero h1{
+        color: white;
+        font-size: 5rem;
+    }
+
+}
+¨
+.cta{
+    display: block;
+    color: white;
+    font-size: 2rem;
+
+}
+
+
+nav>ul{
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+    font-weight: 500;
+    font-size: 1.4rem;
+    text-transform: uppercase;
+    a {
+
+        text-decoration: none;
+
+    }
+
+    a:hover {
+
+        text-decoration: underline;
+    
+    }
+
+}
+
+
+.pcontainer{
+    background-color: white;
+    padding: 1.2rem;
+}
